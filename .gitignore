@@ -87,9 +87,6 @@ dmypy.json
 *.sock
 
 # Machine Learning / Data Science
-data/
-datasets/
-*.csv
 *.tsv
 *.parquet
 
