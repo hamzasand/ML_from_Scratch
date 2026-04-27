@@ -3,6 +3,7 @@ from fastapi import FastAPI, Request
 import uvicorn
 
 from fastapi.staticfiles import StaticFiles
+
 from fastapi.templating import Jinja2Templates
 from controllers.controller import router
 
