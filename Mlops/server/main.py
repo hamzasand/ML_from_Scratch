@@ -9,6 +9,7 @@ from fastapi.templating import Jinja2Templates
 from controllers.controller import router
 
 app = FastAPI()
+
 app.include_router(router)
 app.mount('/static',StaticFiles(directory='static'),name='static')
 
