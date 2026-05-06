@@ -1,5 +1,4 @@
 from fastapi import FastAPI, Request
-
 import uvicorn
 
 from fastapi.staticfiles import StaticFiles
